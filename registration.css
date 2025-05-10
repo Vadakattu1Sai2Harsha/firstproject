@@ -1,0 +1,36 @@
+body {
+  background: #e0f7fa;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px gray;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+button {
+  width: 48%;
+  padding: 10px;
+  background: #26a69a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 4%;
+}
+
+button:hover {
+  background: #2bbbad;
+}

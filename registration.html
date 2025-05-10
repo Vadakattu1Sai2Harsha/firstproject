@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+  <form id="registerForm">
+    <h2>Registration</h2>
+    <input type="text" id="name" placeholder="Full Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <input type="text" id="address" placeholder="Address" required>
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+    <input type="date" id="dob" required>
+
+    <p>Gender:</p>
+    <label><input type="radio" name="gender" value="Male" required> Male</label>
+    <label><input type="radio" name="gender" value="Female"> Female</label>
+
+    <p>Hobbies:</p>
+    <select id="hobbies">
+      <option>Reading</option>
+      <option>Gaming</option>
+      <option>Traveling</option>
+    </select>
+
+    <p>State:</p>
+    <select id="state">
+      <option>Andhra Pradesh</option>
+      <option>Maharashtra</option>
+      <option>Karnataka</option>
+      <option>Delhi</option>
+    </select>
+
+    <br><br>
+    <button type="submit">Register</button>
+    <button type="reset">Reset</button>
+  </form>
+  <script src="registration.js"></script>
+</body>
+</html>
